@@ -1,0 +1,49 @@
+#header-nav{
+	background-color: #f6b319;
+	border-radius: 0;
+	border: 0;
+}
+
+body{
+	background-color: #eeeeee;
+}
+
+.navbar-brand{
+	font-family: 'Lora', serif;
+	color: #557c3e;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+
+@media (max-width: 767px){
+	#collapsable-nav{
+		background-color: pink;
+	}
+}
+
+.dropdown-items{
+	font-family: 'Lora', serif;
+	color: #557c3e;
+	font-size: 1.25em;
+	font-weight: bold;
+}
+
+.heading{
+	font-family: 'Lora', serif;
+	color: #557c3e;
+	font-size: 4em;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+}
+.main-content{
+	background-color: #e1b319;
+	height: 1000px;
+	margin: 5%;
+	width: 90%;
+}
